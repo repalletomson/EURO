@@ -14,7 +14,7 @@ const BrandPreloader = dynamic(() => import('./BrandPreloader'), {
       style={{
         width: '100vw',
         height: '100svh',
-        background: '#080D18',
+        background: '#222722',
       }}
       aria-hidden="true"
     />

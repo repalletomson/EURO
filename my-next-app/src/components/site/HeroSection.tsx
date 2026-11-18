@@ -188,7 +188,7 @@ export default function HeroSection({}: HeroSectionProps) {
           </div>
 
           <h1 className="hero__title">
-            Surfaces Sculpted by <span className="text-bronze-shimmer italic font-normal">Italian Light</span>.
+            Surfaces Sculpted by <span className="text-olive-shimmer italic font-normal">Italian Light</span>.
           </h1>
 
           <p className="hero__desc">

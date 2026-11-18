@@ -309,7 +309,7 @@ export default function ServicesSection() {
           </div>
 
           <h2 className="services-deck__heading">
-            The Architecture of <span className="text-bronze-shimmer italic font-normal">Continuous Surfaces</span>.
+            The Architecture of <span className="text-olive-shimmer italic font-normal">Continuous Surfaces</span>.
           </h2>
         </header>
 

@@ -20,11 +20,11 @@ const PARTNERS: Partner[] = [
     description: 'Pioneers in raw Italian lime plasters, oxidized metallic coatings, and continuous surface textures since 1982.',
     logo: (
       <div className="flex flex-col items-center justify-center gap-2 select-none">
-        <svg className="w-10 h-10 text-neutral-900" viewBox="0 0 36 36" fill="currentColor" aria-hidden="true">
+        <svg className="w-10 h-10 text-[#222722]" viewBox="0 0 36 36" fill="currentColor" aria-hidden="true">
           <path d="M4 6h7.5l8.5 14V6H27v24h-7.5L11 16v14H4V6z" />
-          <circle cx="30" cy="8" r="3" fill="#94714D" />
+          <circle cx="30" cy="8" r="3" fill="#65704F" />
         </svg>
-        <span className="text-base font-bold tracking-[0.16em] uppercase font-sans text-neutral-900">
+        <span className="text-base font-bold tracking-[0.16em] uppercase font-sans text-[#222722]">
           Novacolor
         </span>
       </div>
@@ -39,14 +39,14 @@ const PARTNERS: Partner[] = [
     logo: (
       <div className="flex flex-col items-center justify-center gap-1.5 select-none">
         {/* Lion of Saint Mark stylized architectural emblem */}
-        <svg className="w-11 h-9 text-neutral-900" viewBox="0 0 44 32" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <svg className="w-11 h-9 text-[#222722]" viewBox="0 0 44 32" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
           <path d="M6 26c0-6 4-10 10-10h12c6 0 10 4 10 10" />
           <path d="M12 16V8c0-3 2-5 5-5s5 2 5 5v8" />
           <path d="M22 6c3 0 6 2 6 5v5" />
           <line x1="4" y1="28" x2="40" y2="28" strokeWidth="2.2" />
           <circle cx="17" cy="6" r="1.5" fill="currentColor" />
         </svg>
-        <span className="text-sm font-semibold tracking-[0.18em] uppercase font-serif text-neutral-900">
+        <span className="text-sm font-semibold tracking-[0.18em] uppercase font-serif text-[#222722]">
           San Marco
         </span>
       </div>
@@ -61,12 +61,12 @@ const PARTNERS: Partner[] = [
     logo: (
       <div className="flex flex-col items-center justify-center gap-2 select-none">
         {/* Oikos circle emblem */}
-        <svg className="w-10 h-10 text-neutral-900" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <svg className="w-10 h-10 text-[#222722]" viewBox="0 0 36 36" fill="none" aria-hidden="true">
           <circle cx="18" cy="18" r="15" stroke="currentColor" strokeWidth="2" />
           <circle cx="18" cy="18" r="8" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3 2" />
-          <circle cx="18" cy="18" r="3" fill="#94714D" />
+          <circle cx="18" cy="18" r="3" fill="#65704F" />
         </svg>
-        <span className="text-base font-bold tracking-[0.22em] uppercase font-sans text-neutral-900">
+        <span className="text-base font-bold tracking-[0.22em] uppercase font-sans text-[#222722]">
           Oikos
         </span>
       </div>
@@ -81,11 +81,11 @@ const PARTNERS: Partner[] = [
     logo: (
       <div className="flex flex-col items-center justify-center gap-1.5 select-none">
         {/* Viero geometric V monogram */}
-        <svg className="w-10 h-9 text-neutral-900" viewBox="0 0 38 32" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <svg className="w-10 h-9 text-[#222722]" viewBox="0 0 38 32" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
           <path d="M4 4l15 24L34 4" />
-          <path d="M12 4l7 12 7-12" stroke="#94714D" strokeWidth="2" />
+          <path d="M12 4l7 12 7-12" stroke="#65704F" strokeWidth="2" />
         </svg>
-        <span className="text-sm font-bold tracking-[0.24em] uppercase font-sans text-neutral-900">
+        <span className="text-sm font-bold tracking-[0.24em] uppercase font-sans text-[#222722]">
           Viero
         </span>
       </div>
@@ -100,13 +100,13 @@ const PARTNERS: Partner[] = [
     logo: (
       <div className="flex flex-col items-center justify-center gap-1.5 select-none text-center">
         {/* Venetian Gondola & Wave Crest */}
-        <svg className="w-12 h-9 text-neutral-900" viewBox="0 0 48 32" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <svg className="w-12 h-9 text-[#222722]" viewBox="0 0 48 32" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
           <path d="M4 22c8 0 12-8 20-8s12 8 20 8" />
           <path d="M14 18c4-4 8-8 10-8s6 4 10 8" />
-          <line x1="24" y1="6" x2="24" y2="24" stroke="#94714D" strokeWidth="2" />
-          <circle cx="24" cy="5" r="2" fill="#94714D" />
+          <line x1="24" y1="6" x2="24" y2="24" stroke="#65704F" strokeWidth="2" />
+          <circle cx="24" cy="5" r="2" fill="#65704F" />
         </svg>
-        <span className="text-xs font-semibold tracking-[0.14em] uppercase font-serif text-neutral-900 leading-tight">
+        <span className="text-xs font-semibold tracking-[0.14em] uppercase font-serif text-[#222722] leading-tight">
           Colorificio<br />Veneziano
         </span>
       </div>
@@ -121,12 +121,12 @@ const PARTNERS: Partner[] = [
     logo: (
       <div className="flex flex-col items-center justify-center gap-1.5 select-none text-center">
         {/* Artisan Ammonite/Spiral monogram */}
-        <svg className="w-10 h-10 text-neutral-900" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+        <svg className="w-10 h-10 text-[#222722]" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
           <path d="M20 6a14 14 0 1 1-10 24" />
-          <path d="M20 12a8 8 0 1 1-6 13" stroke="#94714D" />
+          <path d="M20 12a8 8 0 1 1-6 13" stroke="#65704F" />
           <circle cx="20" cy="20" r="2.5" fill="currentColor" />
         </svg>
-        <span className="text-xs font-bold tracking-[0.18em] uppercase font-sans text-neutral-900 leading-tight">
+        <span className="text-xs font-bold tracking-[0.18em] uppercase font-sans text-[#222722] leading-tight">
           Giorgio Graesan
         </span>
       </div>
@@ -141,12 +141,12 @@ const PARTNERS: Partner[] = [
     logo: (
       <div className="flex flex-col items-center justify-center gap-1.5 select-none">
         {/* Rialto Bridge Shield */}
-        <svg className="w-11 h-9 text-neutral-900" viewBox="0 0 40 32" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <svg className="w-11 h-9 text-[#222722]" viewBox="0 0 40 32" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
           <path d="M6 26V8a2 2 0 0 1 2-2h24a2 2 0 0 1 2 2v18" />
-          <path d="M12 26c0-6 4-10 8-10s8 4 8 10" stroke="#94714D" />
+          <path d="M12 26c0-6 4-10 8-10s8 4 8 10" stroke="#65704F" />
           <line x1="4" y1="26" x2="36" y2="26" />
         </svg>
-        <span className="text-sm font-bold tracking-[0.22em] uppercase font-sans text-neutral-900">
+        <span className="text-sm font-bold tracking-[0.22em] uppercase font-sans text-[#222722]">
           Rialto
         </span>
       </div>
@@ -161,12 +161,12 @@ const PARTNERS: Partner[] = [
     logo: (
       <div className="flex flex-col items-center justify-center gap-1.5 select-none">
         {/* Hexagonal architectural stone emblem */}
-        <svg className="w-10 h-10 text-neutral-900" viewBox="0 0 36 36" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <svg className="w-10 h-10 text-[#222722]" viewBox="0 0 36 36" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
           <polygon points="18,3 32,10 32,26 18,33 4,26 4,10" />
-          <polyline points="18,3 18,18 32,26" stroke="#94714D" />
+          <polyline points="18,3 18,18 32,26" stroke="#65704F" />
           <line x1="18" y1="18" x2="4" y2="26" />
         </svg>
-        <span className="text-xs font-bold tracking-[0.2em] uppercase font-sans text-neutral-900">
+        <span className="text-xs font-bold tracking-[0.2em] uppercase font-sans text-[#222722]">
           Armourcoat
         </span>
       </div>

@@ -162,7 +162,7 @@ export default function Footer() {
 
             {subscribed ? (
               <div className="site-footer__subscribed" role="status">
-                <svg className="w-5 h-5 text-bronze flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
+                <svg className="w-5 h-5 text-[var(--color-olive-signature,#65704F)] flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span>Your private subscription has been confirmed.</span>

@@ -63,7 +63,7 @@ const EuroWordmark = forwardRef<EuroWordmarkHandle>((_, ref) => {
       ref={rootRef}
       className="wordmark"
       aria-label={`${BRAND.name} — ${BRAND.tagline}`}
-      style={{ color: BRAND.ivory }}
+      style={{ color: BRAND.chalk }}
     >
       <div className="wordmark__row">
         <span ref={letterERef} className="wordmark__letter">
@@ -78,13 +78,13 @@ const EuroWordmark = forwardRef<EuroWordmarkHandle>((_, ref) => {
         <div ref={oSlotRef} className="wordmark__o" aria-hidden="true" />
       </div>
 
-      <div ref={finishesRef} className="wordmark__finishes">
+      <div ref={finishesRef} className="wordmark__finishes" style={{ color: BRAND.darkSecondaryText }}>
         {BRAND.subBrand}
       </div>
 
       <div ref={dividerRef} className="wordmark__divider" />
 
-      <div ref={taglineRef} className="wordmark__tagline" style={{ color: BRAND.oliveGrey }}>
+      <div ref={taglineRef} className="wordmark__tagline" style={{ color: BRAND.softSage }}>
         {BRAND.tagline}
       </div>
     </div>
