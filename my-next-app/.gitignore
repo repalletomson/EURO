@@ -40,6 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# heavy media / runtime assets served from CDN or local setup
-/public/videos
+# heavy runtime assets not needed by the app (Cesium is unused by src)
 /public/cesium
