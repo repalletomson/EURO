@@ -170,7 +170,7 @@ export default function HeroSection({}: HeroSectionProps) {
         <div className="hero__video-container">
           <video
             className="hero__video"
-            src="/videos/hero-villa.mp4"
+            src="/videos/hero-company.mp4"
             autoPlay
             loop
             muted
